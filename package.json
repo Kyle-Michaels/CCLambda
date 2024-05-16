@@ -1,0 +1,23 @@
+{
+  "name": "cclambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyle-Michaels/CCLambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyle-Michaels/CCLambda/issues"
+  },
+  "homepage": "https://github.com/Kyle-Michaels/CCLambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1622.0",
+    "sharp": "^0.33.4"
+  }
+}
