@@ -42,7 +42,7 @@ exports.handler = async (event) => {
     const metadata = await sharp(image.Body).metadata();
 
     // Resize Image
-    const resizedImage = await sharp(image.Body).resize({ width: 150, height: 150 }).toBuffer();
+    const resizedImage = await sharp(image.Body).resize({ width: 150 }).toBuffer();
 
     // Upload resized image
     await s3Client.putObject({
